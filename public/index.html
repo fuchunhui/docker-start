@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    .btn {
+      margin-bottom: 10px;
+      cursor: pointer;
+      user-select: none;
+    }
+    .text {
+      padding-left: 200px;
+      font-size: 24px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="btn" onclick="getText()">获取数据</div>
+    <div class="text"></div>
+  </div>
+</body>
+
+<script type="text/javascript">
+  function getText() {
+    $(".text").load("http://localhost:8080/test");
+  }
+</script>

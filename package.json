@@ -1,0 +1,25 @@
+{
+  "name": "docker-start",
+  "version": "1.0.0",
+  "description": "写个简单的例子，帮助大家更好的理解学习docker",
+  "main": "test.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js",
+    "post": "node post.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuchunhui/docker-start.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuchunhui/docker-start/issues"
+  },
+  "homepage": "https://github.com/fuchunhui/docker-start#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
