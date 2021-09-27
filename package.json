@@ -2,11 +2,12 @@
   "name": "docker-start",
   "version": "1.0.0",
   "description": "写个简单的例子，帮助大家更好的理解学习docker",
-  "main": "test.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "test": "node test.js",
-    "post": "node post.sh"
+    "dev": "node server.js",
+    "post": "sh post.sh",
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
