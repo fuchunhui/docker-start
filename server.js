@@ -25,4 +25,6 @@ app.post('/faces', (req, res) => {
   res.send(word.random(num).join('\n\n'));
 });
 
-app.listen(8080);
+app.listen(8080, () => {
+  console.log('server start.');
+});
